@@ -1,0 +1,121 @@
+#slider1{}
+#slider1 img{position: absolute; top:950px; left: 500px;}
+
+@keyframes slider1Animation {
+
+
+ 
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#slider1 img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+#slider1 img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+#slider1 img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#slider1 img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+#slider1 img {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-name: slider1Animation;
+    animation-timing-function: ease-in-out;
+}
+body
+
+{
+background-color: #FFF4E0;
+font-family: Helvetica;
+font size: 20px;
+color: #4D4D4D;
+
+}
+a:link
+{
+	color: #B46060
+;
+}
+a:visited
+{
+	color: #FFBF9B;
+}
+a:hover
+{
+	color: #4D4D4D
+	
+}
+
+
+
+div.container {
+	text-align: center;
+	selector {background: #B46060;}
+}
+
+ul.myUL {
+	display: inline-block;
+	text-align: left;
+}
+
+
+{
+.header
+{
+		width: 100%;
+		padding: 10px 0;
+		background-color: #B46060;
+		
+		border-top: 1px solid #B46060;
+		border-bottom: 1px solid #B46060;
+		height: 40px;
+}	
+	
+.logo
+{
+	width: 450px;
+	font-size: 48px;
+	margin-left: atuo;
+	margin-right: auto;
+}
+.nav
+{
+		width: 100%;
+		padding: 10px 0;
+		background-color: #B46060;
+		text-align: center;
+		border-top: 1px solid #B46060;
+		border-bottom: 1px solid #B46060;
+		height: 40px;
+}
+
+{
+	<img class="mySlides" src="c:/strona/linux/linux.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="c:/strona/linux/linux1.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="c:/strona/linux/linux2.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="c:/strona/linux/linux3.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="c:/strona/linux/linux4.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	
+	<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+}
+}

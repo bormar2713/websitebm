@@ -1,0 +1,55 @@
+body
+{
+	background-color: white;
+	font_family: Helvetica;
+	font-size: 18px;
+	color: black;
+}
+{
+<div id="slider1">
+  <img src="c:/strona/slajdy/0.jpeg" width="350" height="300" />
+  <img src="c:/strona/slajdy/1.jpeg" width="350" height="300"/>
+  <img src="c:/strona/slajdy/2.jpeg" width="350" height="300"/>
+  <img src="c:/strona/slajdy/3.jpeg" width="350" height="300"/>
+  <img src="c:/strona/slajdy/4.jpeg" width="350" height="300"/>
+</div>
+#slider1{}
+#slider1 img{position: absolute; top:0px; left: 0px;}
+@keyframes slider1Animation {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#slider1 img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+#slider1 img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+#slider1 img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#slider1 img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+#slider1 img {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-name: slider1Animation;
+    animation-timing-function: ease-in-out;
+}
+}
